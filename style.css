@@ -1,25 +1,47 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ADEFD1FF;
+    background-color: rgb(173, 218, 239);
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+.header{
+    background-color: #042636;
+    width: 60%;
+    /*text-align: center;*/
+    margin: auto;
+    border-radius: 20px; 
+}
+
+
 
 #survey-form{
-    background-color: #00008b;
+    background-color: #042636;
     width: 60%;
-    /* text-align: center; */
+    /*text-align: center;*/
     margin: auto;
     border-radius: 20px;
     
 }
 
+
+
+
 .form-group{
     display: flex;
+    /*text-align: left;*/
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.form-group-option{
+    text-align: left;
+}
+
+.form-group-check
+{
+    text-align: left;
 }
 
 input,select{
